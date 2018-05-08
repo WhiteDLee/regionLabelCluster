@@ -45,13 +45,13 @@ def poi_cal(k, fdValueFile)
     DF=r'example\DF_random9_vertice7_LINE.txt'
     excelResult=r'example\resultFileLINE.csv'
     kmeans_label(7,graph_path,graph_result_label)
-    #trans_query_graph.getVerticesClass(836,graph_result_label,verticeLabelText)
     ToIdLabel(graph_result_label,idLabel,graph_path)
     Fdandpicture(idLabel,DF)
     poi_cal(7,DF,excelResult)
 
 子图集数据(subgraph-exp)：
-kmeans_label(7,r'graph_100_dim.txt','graph_100_label.txt')
-ToIdLabel(r'vertice_label.txt',r'vertice_label_ordered.txt')
-Fdandpicture(r'vertice_label_ordered.txt',r'DF_random9_vertice7.txt')
-poi_cal(7,r'DF_random9_vertice7.txt')
+    kmeans_label(7, r'example\graph_100_dim_newlr.txt', 'example\graph_100_newlr_label.txt')
+    trans_query_graph.getVerticesClass(836,r'example\graph_100_newlr_label.txt',r'example\vertice_label_matrix.txt' )
+    ToIdLabel(r'example\vertice_label_matrix.txt', r'example\vertice_label_ordered_matrix.txt')
+    Fdandpicture(r'example\vertice_label_ordered_matrix.txt', r'example\DF_random9_vertice7_newlr.txt')
+    poi_cal(7, r'example\DF_random9_vertice7_newlr.txt',r'example\resultFileSubgraph.csv')
