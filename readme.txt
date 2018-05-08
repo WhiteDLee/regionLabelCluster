@@ -37,13 +37,20 @@ def poi_cal(k, fdValueFile)
 
 
 测试数据：
-图嵌入数据：
-get_graph(r'22015-9-7-11zaolabel.txt',r'traffic_network.txt')--->largevis做之后工作
-ToIdLabel(r'tra_label.txt',r'tra_label_ordered.txt',r'traffic_vec2D.txt')
-Fdandpicture(r'tra_label_ordered.txt',r'DF_random9_new7.txt')
-poi_cal(7,r'DF_random9_new7.txt')
+图嵌入数据(LINE-exp)：
+    graph_path=r'example\vec_all.txt'
+    graph_result_label=r'example\LINE_label.txt'
+    verticeLabelText=r'example\vertive_label_LINE.txt'
+    idLabel=r'example\vertice_label_ordered_LINE.txt'
+    DF=r'example\DF_random9_vertice7_LINE.txt'
+    excelResult=r'example\resultFileLINE.csv'
+    kmeans_label(7,graph_path,graph_result_label)
+    #trans_query_graph.getVerticesClass(836,graph_result_label,verticeLabelText)
+    ToIdLabel(graph_result_label,idLabel,graph_path)
+    Fdandpicture(idLabel,DF)
+    poi_cal(7,DF,excelResult)
 
-多子图集数据：
+子图集数据(subgraph-exp)：
 kmeans_label(7,r'graph_100_dim.txt','graph_100_label.txt')
 ToIdLabel(r'vertice_label.txt',r'vertice_label_ordered.txt')
 Fdandpicture(r'vertice_label_ordered.txt',r'DF_random9_vertice7.txt')
