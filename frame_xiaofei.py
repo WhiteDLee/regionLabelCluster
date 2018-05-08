@@ -28,8 +28,8 @@ def get_graph(graph_path,graph_result):#从图结构得到网络结构
 
 def kmeans_label(k,toBeClusteredFile,labelText):#根据降维后结果进行聚类
     kmean = KMeans(k)
-    #col=[1,2,3,4]
-    a = numpy.loadtxt(toBeClusteredFile)#,usecols=tuple(col))
+    col=[1,2,3,4]
+    a = numpy.loadtxt(toBeClusteredFile,usecols=tuple(col))
     result = kmean.fit_predict(a)
     numpy.savetxt(labelText, result, fmt='%d')
 
