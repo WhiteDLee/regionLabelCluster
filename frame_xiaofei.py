@@ -28,8 +28,7 @@ def get_graph(graph_path,graph_result):#从图结构得到网络结构
 
 def kmeans_label(k,toBeClusteredFile,labelText):#根据降维后结果进行聚类
     kmean = KMeans(k)
-    #col=[1,2,3,4]
-    a = numpy.loadtxt(toBeClusteredFile)#,usecols=tuple(col))
+    a = numpy.loadtxt(toBeClusteredFile)
     result = kmean.fit_predict(a)
     numpy.savetxt(labelText, result, fmt='%d')
 
@@ -81,15 +80,9 @@ def poi_cal(k, fdValueFile,excelResult):#得到熵值
 
 #get_graph(r'22015-9-7-11zaolabel.txt',r'traffic_network.txt')
 if __name__=="__main__":
-    graph_path=r'example\vec_all.txt'
-    graph_result_label=r'example\LINE_label.txt'
-    verticeLabelText=r'example\vertive_label_LINE.txt'
-    idLabel=r'example\vertice_label_ordered_LINE.txt'
-    DF=r'example\DF_random9_vertice7_LINE.txt'
-    excelResult=r'example\resultFileLINE.csv'
-    kmeans_label(7,graph_path,graph_result_label)
-    #trans_query_graph.getVerticesClass(836,graph_result_label,verticeLabelText)
-    ToIdLabel(graph_result_label,idLabel,graph_path)
-    Fdandpicture(idLabel,DF)
-    poi_cal(7,DF,excelResult)
+    kmeans_label(7, r'example\graph_100_dim_newlr.txt', 'example\graph_100_newlr_label.txt')
+    trans_query_graph.getVerticesClass(836,r'example\graph_100_newlr_label.txt',r'example\vertice_label_matrix.txt' )
+    ToIdLabel(r'example\vertice_label_matrix.txt', r'example\vertice_label_ordered_matrix.txt')
+    Fdandpicture(r'example\vertice_label_ordered_matrix.txt', r'example\DF_random9_vertice7_newlr.txt')
+    poi_cal(7, r'example\DF_random9_vertice7_newlr.txt',r'example\resultFileSubgraph.csv')
 
