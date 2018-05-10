@@ -4,9 +4,9 @@
 代码如下：
 /**
  *@brief 从图结构得到用于largevis降维的数据，仅边向量中的起点终点和权重的值。
- *@输入 所有图结构
+ *@输入 所有图结构graph_path
  *图结构数据格式：（v 点id 属性1 属性2 属性3 属性4 标签）（e 边id 输入点id 输出点id 权重 边标签）
- *@输出 每个点向量表示
+ *@输出 每个点向量表示graph_result
  */
 get_graph(graph_path,graph_result)
 
@@ -22,8 +22,8 @@ def kmeans_label(k,toBeClusteredFile,labelText)
 
 /**
  *@brief 绘制区域聚类图，输出每个类型的FD值
- *@输入 区域对应类型labelOrderedFile，区域ID（若为空则默认顺序值），北京市地图数据
- *@输出 区域聚类图，每种类型的FD值
+ *@输入 区域对应类型labelText，区域ID（若为空则默认顺序值），北京市地图数据
+ *@输出 区域聚类图labelOrderedFile，每种类型的FD值fdValueFile
  */
 def ToIdLabel(labelText, labelOrderedFile, idText='')
 def Fdandpicture(labelOrderedText, fdValueFile)
@@ -31,9 +31,9 @@ def Fdandpicture(labelOrderedText, fdValueFile)
 /**
  *@brief 通过FD值计算熵值，比较图嵌入方法得到聚类的效果。
  *@输入 聚类个数k，FD值文件fdValueFile
- *@输出 熵值
+ *@输出 熵值, 结果存储于excelResult中
  */
-def poi_cal(k, fdValueFile)
+def poi_cal(k, fdValueFile, excelResult)
 
 
 测试数据：
