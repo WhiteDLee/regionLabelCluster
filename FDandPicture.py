@@ -4,7 +4,7 @@
 from pylab import *
 import matplotlib.pyplot as plt
 from PIL import Image
-import glob, os
+import glob, os,csv
 
 all_edge_vertice = []
 all_bbox = []  #第一个区域的bbox不用存
@@ -203,6 +203,16 @@ def get_FD_value(region_file_path,poi_type_file,outputFile):
                 f_w.write(str(poi_t)+':'+str(0)+'\n')
             #f_w.write(str(k)+':'+str(v*100)+' ')
         #f_w.write('\n')
+    csvFile = open(r'example\DFvalue.csv', 'a', newline='')
+    writer = csv.writer(csvFile)
+    for key, value in new_type_poi_dic.items():
+        writer.writerow([str(key)])
+        for poi_t in poi_types:
+            if poi_t in value:
+                writer.writerow([str(poi_t),value[poi_t]*100])
+            else:
+                writer.writerow([str(poi_t),0])
+    csvFile.close()
     f_w.close()
 
 
