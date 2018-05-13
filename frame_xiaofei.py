@@ -73,7 +73,7 @@ def Fdandpicture(labelOrderedText, fdValueFile):#绘图，得出poi值
 
 def poi_cal(k, fdValueFile,excelResult):#得到熵值
     dic=poi_calcu.poi_calcu(k, fdValueFile)
-    csvFile = open(excelResult, 'a', newline='')
+    csvFile = open(excelResult, 'a+', newline='')
     writer = csv.writer(csvFile)
     for key in dic:
         writer.writerow([key, dic[key]])
@@ -81,15 +81,15 @@ def poi_cal(k, fdValueFile,excelResult):#得到熵值
 
 #get_graph(r'22015-9-7-11zaolabel.txt',r'traffic_network.txt')
 if __name__=="__main__":
-    graph_path=r'example\vec_all.txt'
-    graph_result_label=r'example\LINE_label.txt'
-    verticeLabelText=r'example\vertive_label_LINE.txt'
-    idLabel=r'example\vertice_label_ordered_LINE.txt'
-    DF=r'example\DF_random9_vertice7_LINE.txt'
-    excelResult=r'example\resultFileLINE.csv'
+    graph_path=r'example\graph_100_dim_toPointVectorWithEdges.txt'
+    graph_result_label=r'example\autoPointwe_label.txt'
+    verticeLabelText=r'example\vertive_label_autoPointWE.txt'
+    idLabel=r'example\vertice_label_ordered_autoPointWE.txt'
+    DF=r'example\DF_random9_vertice7_autoPointWE.txt'
+    excelResult=r'example\resultFileLautoPointWE.csv'
     kmeans_label(7,graph_path,graph_result_label)
     #trans_query_graph.getVerticesClass(836,graph_result_label,verticeLabelText)
-    ToIdLabel(graph_result_label,idLabel,graph_path)
+    ToIdLabel(graph_result_label,idLabel)
     Fdandpicture(idLabel,DF)
     poi_cal(7,DF,excelResult)
 
