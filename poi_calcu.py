@@ -5,6 +5,7 @@
 
 __author__ = 'Tree'
 import math
+import numpy as np
 def poi_calcu(k,poi_path):
     f_r = open(r'poi_type.txt','r')
     all_lines = f_r.readlines()
@@ -46,6 +47,9 @@ def poi_calcu(k,poi_path):
     dic["maximun"]=max(results)
     dic["minimum"]=min(results)
     dic["d"]=max(results)-min(results)
+    dic["mean"]=np.mean(results)
+    dic["var"]=np.var(results)
+    dic["result"]=dic["mean"]+dic["var"]
     return dic
 
 
