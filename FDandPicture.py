@@ -96,7 +96,7 @@ def draw_new_picture(region_file_path):
         for j in range(len(picture_region_id)):
             if picture_region_id[j][i] not in region_dic:
                 continue
-            new_image.putpixel((i,j),colors[region_dic[picture_region_id[j][i]]-1])
+            new_image.putpixel((i,j),colors[region_dic[picture_region_id[j][i]]])
     new_image.save('ske_coloredrandom9_new7.png','png')
     im_ar1 = array(new_image)
     width1 = len(im_ar[0])
