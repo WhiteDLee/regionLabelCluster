@@ -113,12 +113,15 @@ def draw_new_picture(region_file_path):
 def get_FD_value(region_file_path,poi_type_file,outputFile):
     region_f = open(region_file_path) #读取存放区域所属类别的文件
     poi_f = open(poi_type_file) #读取存放区域POI分布的文件
-    poi_line = poi_f.readline()#第一行是区域0，在实验中没有，所以剔除
+    #poi_line = poi_f.readline()#第一行是区域0，在实验中没有，所以剔除
     poi_line = poi_f.readline().strip()
     region_poi_type = {}#记录区域与该区域包含的poi类型及数量{region_id:{poi类型:数量}}
     while poi_line:
         lines = poi_line.split(' ') #存放该区域的所有POI类型及数量列表
         region_id = int(lines[0].strip())
+        if region_id==0:
+            poi_line = poi_f.readline().strip()
+            continue
         if region_id not in region_poi_type:
             region_poi_type[region_id] = {}
         for i in range(1,len(lines)):
@@ -203,7 +206,7 @@ def get_FD_value(region_file_path,poi_type_file,outputFile):
                 f_w.write(str(poi_t)+':'+str(0)+'\n')
             #f_w.write(str(k)+':'+str(v*100)+' ')
         #f_w.write('\n')
-    csvFile = open(r'example\DFvalue_tanh.csv', 'a', newline='')
+    csvFile = open(r'example\DFvaluetest.csv', 'a', newline='')
     writer = csv.writer(csvFile)
     for key, value in new_type_poi_dic.items():
         writer.writerow([str(key)])

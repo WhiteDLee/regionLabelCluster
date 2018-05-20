@@ -105,12 +105,12 @@ def poi_cal(k, fdValueFile,excelResult):#得到熵值
 
 #get_graph(r'22015-9-7-11zaolabel.txt',r'traffic_network.txt')
 if __name__=="__main__":
-    graph_path=r'example\graph_100_dim_toPointVectorWithEdges.txt'
-    graph_result_label=r'example\autoPointwe_label_tanh.txt'
-    verticeLabelText=r'example\vertive_label_autoPointWE_tanh.txt'
-    idLabel=r'example\vertice_label_ordered_autoPointWE_tanh.txt'
-    DF=r'example\DF_random9_vertice7_autoPointWE_tanh.txt'
-    excelResult=r'example\resultFileLautoPointWE_tanh.csv'
+    graph_path=r'example\test.txt'
+    graph_result_label=r'example\label_test.txt'
+    verticeLabelText=r'example\vertive_label_test.txt'
+    idLabel=r'example\vertice_label_ordered_test.txt'
+    DF=r'example\DF_random9_vertice7_test.txt'
+    excelResult=r'example\resultFiletest.csv'
     bestK=test_kmeans_label(graph_path,graph_result_label)
     #kmeans_label(7,graph_path,graph_result_label)
     #trans_query_graph.getVerticesClass(836,graph_result_label,verticeLabelText)
