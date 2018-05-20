@@ -2,17 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c4b52995-d73a-4c55-9057-6ef842c837b5" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/FDandPicture.py" afterPath="$PROJECT_DIR$/FDandPicture.py" />
-      <change beforePath="$PROJECT_DIR$/color_bar_new7.png" afterPath="$PROJECT_DIR$/color_bar_new7.png" />
-      <change beforePath="$PROJECT_DIR$/example/DF_random9_vertice7_autoPointWE_tanh.txt" afterPath="$PROJECT_DIR$/example/DF_random9_vertice7_autoPointWE_tanh.txt" />
-      <change beforePath="$PROJECT_DIR$/example/DFvalue_tanh.csv" afterPath="$PROJECT_DIR$/example/DFvalue_tanh.csv" />
-      <change beforePath="$PROJECT_DIR$/example/autoPointwe_label_tanh.txt" afterPath="$PROJECT_DIR$/example/autoPointwe_label_tanh.txt" />
-      <change beforePath="$PROJECT_DIR$/example/graph_100_dim_toPointVectorWithEdgestanh.txt" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/example/resultFileLautoPointWE_tanh.csv" afterPath="$PROJECT_DIR$/example/resultFileLautoPointWE_tanh.csv" />
-      <change beforePath="$PROJECT_DIR$/example/vertice_label_ordered_autoPointWE_tanh.txt" afterPath="$PROJECT_DIR$/example/vertice_label_ordered_autoPointWE_tanh.txt" />
-      <change beforePath="$PROJECT_DIR$/frame_xiaofei.py" afterPath="$PROJECT_DIR$/frame_xiaofei.py" />
-      <change beforePath="$PROJECT_DIR$/ske_coloredrandom9_new7.png" afterPath="$PROJECT_DIR$/ske_coloredrandom9_new7.png" />
+      <change afterPath="$PROJECT_DIR$/test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/FDandPicture.py" beforeDir="false" afterPath="$PROJECT_DIR$/FDandPicture.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/DF_random9_vertice7_autoPointWE_tanh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/example/DF_random9_vertice7_autoPointWE_tanh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/DFvalue_tanh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/example/DFvalue_tanh.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/autoPointwe_label_tanh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/example/autoPointwe_label_tanh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/resultFileLautoPointWE_tanh.csv" beforeDir="false" afterPath="$PROJECT_DIR$/example/resultFileLautoPointWE_tanh.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/vertice_label_ordered_autoPointWE_tanh.txt" beforeDir="false" afterPath="$PROJECT_DIR$/example/vertice_label_ordered_autoPointWE_tanh.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frame_xiaofei.py" beforeDir="false" afterPath="$PROJECT_DIR$/frame_xiaofei.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ske_coloredrandom9_new7.png" beforeDir="false" afterPath="$PROJECT_DIR$/ske_coloredrandom9_new7.png" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -22,29 +21,18 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/regionLabelCluster$frame_xiaofei.coverage" NAME="frame_xiaofei Coverage Results" MODIFIED="1526634583187" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/regionLabelCluster$frame_xiaofei.coverage" NAME="frame_xiaofei Coverage Results" MODIFIED="1526825997865" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/regionLabelCluster$test.coverage" NAME="test Coverage Results" MODIFIED="1526825829927" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="450">
       <file leaf-file-name="frame_xiaofei.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="459">
-              <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+            <state relative-caret-position="114">
+              <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
               <folding>
                 <element signature="e#89#108#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="poi_calcu.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/poi_calcu.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
-              <folding>
-                <element signature="e#88#99#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -53,8 +41,8 @@
       <file leaf-file-name="FDandPicture.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FDandPicture.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
+            <state relative-caret-position="1330">
+              <caret line="97" column="60" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
               <folding>
                 <element signature="e#45#64#0" expanded="true" />
               </folding>
@@ -64,6 +52,13 @@
       </file>
     </leaf>
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
@@ -72,6 +67,7 @@
       <list>
         <option value="$PROJECT_DIR$/poi_calcu.py" />
         <option value="$PROJECT_DIR$/FDandPicture.py" />
+        <option value="$PROJECT_DIR$/test.py" />
         <option value="$PROJECT_DIR$/frame_xiaofei.py" />
       </list>
     </option>
@@ -82,24 +78,20 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="576" />
-    <option name="y" value="10" />
-    <option name="width" value="1925" />
+    <option name="y" value="9" />
+    <option name="width" value="1926" />
     <option name="height" value="1053" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
@@ -140,7 +132,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.frame_xiaofei">
     <configuration name="frame_xiaofei" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="regionLabelCluster" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -160,9 +152,33 @@
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
     </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="regionLabelCluster" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.frame_xiaofei" />
+      <item itemvalue="Python.test" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.frame_xiaofei" />
+        <item itemvalue="Python.test" />
       </list>
     </recent_temporary>
   </component>
@@ -180,29 +196,43 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-11" y="-11" width="1942" height="1046" extended-state="7" />
+    <frame x="-7" y="-7" width="1295" height="697" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286219" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25833333" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32743362" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25761124" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25833333" />
+      <window_info anchor="right" id="SciView" order="3" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.3286219" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Structure" order="1" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -211,21 +241,7 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FDandPicture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2916">
-          <caret line="111" column="0" lean-forward="true" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1971">
@@ -239,7 +255,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5616">
-          <caret line="208" column="35" lean-forward="false" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+          <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -249,7 +265,7 @@
     <entry file="file://$PROJECT_DIR$/poi_calcu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1404">
-          <caret line="53" column="0" lean-forward="true" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <caret line="53" lean-forward="true" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#88#99#0" expanded="true" />
           </folding>
@@ -258,8 +274,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -269,7 +284,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5535">
-          <caret line="208" column="35" lean-forward="false" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+          <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -279,7 +294,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="5535">
-          <caret line="208" column="35" lean-forward="false" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
+          <caret line="208" column="35" selection-start-line="208" selection-start-column="35" selection-end-line="208" selection-end-column="35" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -289,7 +304,7 @@
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2025">
-          <caret line="80" column="0" lean-forward="true" selection-start-line="80" selection-start-column="0" selection-end-line="80" selection-end-column="0" />
+          <caret line="80" lean-forward="true" selection-start-line="80" selection-end-line="80" />
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -298,8 +313,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -320,7 +334,7 @@
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2430">
-          <caret line="90" column="59" lean-forward="false" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+          <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -330,7 +344,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -339,8 +353,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -360,8 +373,7 @@
     <entry file="file://$PROJECT_DIR$/example/resultFileLINE.csv" />
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -371,8 +383,7 @@
     <entry file="file://$PROJECT_DIR$/example/resultFileLINE.csv" />
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -383,7 +394,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4482">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -392,8 +403,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -404,7 +414,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4401">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -413,8 +423,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -424,7 +433,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4482">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -437,7 +446,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="81">
-          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+          <caret line="6" column="19" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -447,7 +456,7 @@
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="487">
-          <caret line="90" column="59" lean-forward="false" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
+          <caret line="90" column="59" selection-start-line="90" selection-start-column="59" selection-end-line="90" selection-end-column="59" />
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -456,8 +465,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -467,8 +475,7 @@
     <entry file="file://$PROJECT_DIR$/example/resultFileLINE.csv" />
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -479,7 +486,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4482">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -488,8 +495,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -500,7 +506,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4401">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -509,8 +515,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state>
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>
@@ -520,7 +525,7 @@
     <entry file="file://$PROJECT_DIR$/FDandPicture.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4482">
-          <caret line="166" column="46" lean-forward="false" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
+          <caret line="166" column="46" selection-start-line="166" selection-start-column="46" selection-end-line="166" selection-end-column="46" />
           <folding>
             <element signature="e#45#64#0" expanded="true" />
           </folding>
@@ -532,25 +537,13 @@
     <entry file="file://$PROJECT_DIR$/example/autoPoint_label.txt" />
     <entry file="file://$PROJECT_DIR$/example/resultFileLautoPointWE_tanh.csv">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1019">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/FDandPicture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="111" column="0" lean-forward="false" selection-start-line="111" selection-start-column="0" selection-end-line="111" selection-end-column="0" />
-          <folding>
-            <element signature="e#45#64#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-1019" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/poi_calcu.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
-          <caret line="53" column="0" lean-forward="false" selection-start-line="53" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
           <folding>
             <element signature="e#88#99#0" expanded="true" />
           </folding>
@@ -558,33 +551,42 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/graph_100_dim_toPointVectorWithEdges.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/example/autoPointwe_label_tanh.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2106">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
+        <state relative-caret-position="-2106" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/example/vertice_label_ordered_autoPointWE_tanh.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-14175">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="-14175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="22" column="31" selection-start-line="22" selection-start-column="31" selection-end-line="22" selection-end-column="31" />
+          <folding>
+            <element signature="e#88#125#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FDandPicture.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1330">
+          <caret line="97" column="60" selection-start-line="97" selection-start-column="60" selection-end-line="97" selection-end-column="60" />
+          <folding>
+            <element signature="e#45#64#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/frame_xiaofei.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="56" column="12" lean-forward="false" selection-start-line="56" selection-start-column="12" selection-end-line="56" selection-end-column="12" />
+        <state relative-caret-position="114">
+          <caret line="39" column="42" selection-start-line="39" selection-start-column="42" selection-end-line="39" selection-end-column="42" />
           <folding>
             <element signature="e#89#108#0" expanded="true" />
           </folding>

@@ -37,7 +37,7 @@ def kmeans_label(k,toBeClusteredFile,labelText):#根据降维后结果进行聚�
     numpy.savetxt(labelText, result, fmt='%d')
 
 def test_kmeans_label(toBeClusteredFile,labelText):
-    range_n_clusters = [i for i in range(6,11)]# clusters range you want to select
+    range_n_clusters = [i for i in range(2,11)]# clusters range you want to select
     a = numpy.loadtxt(toBeClusteredFile)
     a_norm = preprocessing.normalize(a, norm='l2')
     dataToFit = a_norm  # sample data
