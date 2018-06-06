@@ -206,7 +206,7 @@ def get_FD_value(region_file_path,poi_type_file,outputFile):
                 f_w.write(str(poi_t)+':'+str(0)+'\n')
             #f_w.write(str(k)+':'+str(v*100)+' ')
         #f_w.write('\n')
-    csvFile = open(r'example\DFvaluetest.csv', 'a', newline='')
+    csvFile = open(r'example\DFvalueauto.csv', 'a', newline='')
     writer = csv.writer(csvFile)
     for key, value in new_type_poi_dic.items():
         writer.writerow([str(key)])

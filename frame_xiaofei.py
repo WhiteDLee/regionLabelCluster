@@ -8,6 +8,11 @@ __author__ = 'Tree'
 import numpy,os,csv
 from sklearn.cluster import KMeans,AgglomerativeClustering
 from sklearn import preprocessing
+from sklearn.model_selection import train_test_split
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import Perceptron
+from sklearn.metrics import  accuracy_score
+from sklearn.neighbors import KNeighborsClassifier
 
 import FDandPicture
 import poi_calcu
@@ -27,19 +32,18 @@ def get_graph(graph_path,graph_result):#从图结构得到网络结构
     f_r.close()
     f_w.close()
 
-
 def kmeans_label(k,toBeClusteredFile,labelText):#根据降维后结果进行聚类
     kmean = KMeans(k)
     #col=[1,2,3,4]
     a = numpy.loadtxt(toBeClusteredFile)#,usecols=tuple(col))
-    a_norm=preprocessing.normalize(a,norm='l2')
-    result = kmean.fit_predict(a)
+    a_norm = preprocessing.normalize(a)
+    result = kmean.fit_predict(a_norm)
     numpy.savetxt(labelText, result, fmt='%d')
 
 def test_kmeans_label(toBeClusteredFile,labelText):
-    range_n_clusters = [i for i in range(2,11)]# clusters range you want to select
+    range_n_clusters = [i for i in range(6,11)]# clusters range you want to select
     a = numpy.loadtxt(toBeClusteredFile)
-    a_norm = preprocessing.normalize(a, norm='l2')
+    a_norm=preprocessing.normalize(a)
     dataToFit = a_norm  # sample data
     best_clusters = 0  # best cluster number which you will get
     previous_silh_avg = 0.0
@@ -85,7 +89,6 @@ def ToIdLabel(verticeLabelText, labelOrderedFile, idText=''):#聚类结果的点
         f_w.close()
         f_r.close()
 
-
 def Fdandpicture(labelOrderedText, fdValueFile):#绘图，得出poi值
     cluseter_region_path = labelOrderedText
     bbox_path = 'bbox_6.txt'
@@ -103,16 +106,32 @@ def poi_cal(k, fdValueFile,excelResult):#得到熵值
         writer.writerow([key, dic[key]])
     csvFile.close()
 
+#交叉检验
+def cross_val(graph_path,graph_result_path):
+    X=numpy.loadtxt(graph_path)
+    y=numpy.loadtxt(graph_result_path)
+    X_train,X_test,y_train,y_test=train_test_split(X,y,test_size=0.1)
+    X_train_std=preprocessing.normalize(X_train)
+    X_test_std=preprocessing.normalize(X_test)
+    kneigh=KNeighborsClassifier(n_neighbors=10)
+    kneigh.fit(X_train_std,y_train)
+    y_pred=kneigh.predict(X_test_std)
+    #ppn=Perceptron(n_iter=5000)
+    #ppn.fit(X_train_std,y_train)
+    #y_pred=ppn.predict(X_test_std)
+    return accuracy_score(y_test,y_pred)
+
 #get_graph(r'22015-9-7-11zaolabel.txt',r'traffic_network.txt')
 if __name__=="__main__":
-    graph_path=r'example\test.txt'
-    graph_result_label=r'example\label_test.txt'
-    verticeLabelText=r'example\vertive_label_test.txt'
-    idLabel=r'example\vertice_label_ordered_test.txt'
-    DF=r'example\DF_random9_vertice7_test.txt'
-    excelResult=r'example\resultFiletest.csv'
+    graph_path=r'example\graph_100_dim_toPointVectorWithEdges.txt'
+    graph_result_label=r'example\label_auto.txt'
+    verticeLabelText=r'example\vertive_label_auto.txt'
+    idLabel=r'example\vertice_label_ordered_auto.txt'
+    DF=r'example\DF_random9_vertice7_auto.txt'
+    excelResult=r'example\resultFileaauto.csv'
     bestK=test_kmeans_label(graph_path,graph_result_label)
     #kmeans_label(7,graph_path,graph_result_label)
+    print(cross_val(graph_path,graph_result_label))
     #trans_query_graph.getVerticesClass(836,graph_result_label,verticeLabelText)
     ToIdLabel(graph_result_label,idLabel)
     Fdandpicture(idLabel,DF)
